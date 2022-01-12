@@ -1,0 +1,61 @@
+{
+  "projects": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "nomeDoProjeto": [
+        "Teste4"
+      ],
+      "orcamentoDoProjeto": [
+        "9000"
+      ],
+      "categoria": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 4
+    },
+    {
+      "nomeDoProjeto": [
+        "Teste5"
+      ],
+      "orcamentoDoProjeto": [
+        "3000"
+      ],
+      "categoria": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
+}
