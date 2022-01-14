@@ -38,6 +38,51 @@
       "cost": 0,
       "services": [],
       "id": 5
+    },
+    {
+      "nomeDoProjeto": [
+        "goiaba com maçã"
+      ],
+      "orcamentoDoProjeto": [
+        "3000"
+      ],
+      "categoria": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 6
+    },
+    {
+      "nomeDoProjeto": [
+        "suco de maracujá"
+      ],
+      "orcamentoDoProjeto": [
+        "6000"
+      ],
+      "categoria": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 7
+    },
+    {
+      "nomeDoProjeto": [
+        "projeto 7"
+      ],
+      "orcamentoDoProjeto": [
+        "3000"
+      ],
+      "categoria": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 8
     }
   ],
   "categories": [

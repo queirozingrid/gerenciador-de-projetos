@@ -2,7 +2,7 @@ import { useNavigate } from 'react-router-dom'
 import FormProjeto from '../projects/FormProjeto'
 import styles from './NovoProjeto.module.css'
 function NovoProjeto(){
-    const history = useNavigate()
+    const navigate = useNavigate()
 
     function createPost(project){
         project.cost = 0
@@ -15,7 +15,7 @@ function NovoProjeto(){
             }, body: JSON.stringify(project)
         }).then((resp) => resp.json())
           .then((data) => {
-            history('/projetos', {message: "Projeto criado com sucesso!"})
+            navigate('/projetos', {state : {message: "Projeto criado com sucesso!"}})
           })
           .catch((err) => console.log(err))
     }
